@@ -1,0 +1,111 @@
+{{ define "main" }}
+{{ $d := site.Data.homepage }}
+
+<!-- Hero -->
+<section class="hero">
+    <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="{{ site.Params.heroPoster | relURL }}" aria-hidden="true">
+        <source src="{{ site.Params.heroVideo | relURL }}" type="video/mp4" />
+    </video>
+    <div class="hero__shade"></div>
+    <div class="wrap hero__body">
+        <p class="eyebrow">{{ $d.hero.eyebrow }}</p>
+        <h1>{{ $d.hero.title }}</h1>
+        <p class="hero__lead">{{ $d.hero.lead }}</p>
+        <div class="hero__cta">
+            <a class="btn btn--primary" href="{{ $d.hero.primary.url }}">{{ $d.hero.primary.text }}</a>
+            <a class="btn btn--ghost" href="{{ $d.hero.secondary.url }}">{{ $d.hero.secondary.text }}</a>
+        </div>
+    </div>
+    <div class="wrap">
+        <dl class="stats">
+            {{ range $d.hero.stats }}
+            <div class="stats__item"><dt>{{ .value }}</dt><dd>{{ .label }}</dd></div>
+            {{ end }}
+        </dl>
+    </div>
+</section>
+
+<!-- About -->
+<section class="section about" id="about">
+    <div class="wrap split">
+        <div class="split__text">
+            <p class="eyebrow eyebrow--dark">{{ $d.about.eyebrow }}</p>
+            <h2>{{ $d.about.title }}</h2>
+            {{ range $d.about.text }}<p>{{ . | safeHTML }}</p>{{ end }}
+        </div>
+        <figure class="split__media">
+            <img src="{{ $d.about.img | relURL }}" alt="{{ $d.about.alt }}" width="1800" height="1200" loading="lazy" />
+        </figure>
+    </div>
+</section>
+
+<!-- Verticals -->
+<section class="section verticals" id="verticals">
+    <div class="wrap">
+        <div class="section__head">
+            <p class="eyebrow eyebrow--dark">{{ $d.verticals.eyebrow }}</p>
+            <h2>{{ $d.verticals.title }}</h2>
+        </div>
+        {{ range $d.verticals.items }}
+        <article class="vertical" id="{{ .id }}">
+            <figure class="vertical__media">
+                <img src="{{ .img | relURL }}" alt="{{ .alt }}" loading="lazy" />
+            </figure>
+            <div class="vertical__body">
+                <p class="vertical__num">{{ .number }} · {{ .name }}</p>
+                <h3>{{ .headline }}</h3>
+                <p>{{ .text | safeHTML }}</p>
+                {{ with .extra }}<p>{{ . | safeHTML }}</p>{{ end }}
+                {{ range .lists }}
+                <div class="chips">
+                    <span class="chips__label">{{ .label }}</span>
+                    <ul>{{ range .items }}<li>{{ . }}</li>{{ end }}</ul>
+                </div>
+                {{ end }}
+            </div>
+        </article>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Approach and commitment -->
+<section class="section principles" id="principles">
+    <div class="wrap principles__grid">
+        {{ range slice $d.principles.approach $d.principles.commitment }}
+        <div class="principles__col">
+            <h2>{{ .title }}</h2>
+            <ul>
+                {{ range .items }}
+                <li><h3>{{ .name }}</h3><p>{{ .text }}</p></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="section contact" id="contact">
+    <div class="wrap">
+        <div class="section__head">
+            <p class="eyebrow">{{ $d.contact.eyebrow }}</p>
+            <h2>{{ $d.contact.title }}</h2>
+            <p class="contact__lead">{{ $d.contact.text }}</p>
+        </div>
+        <div class="contact__grid">
+            <div class="card">
+                <h3>Email</h3>
+                <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+            </div>
+            <div class="card">
+                <h3>Phone</h3>
+                <p><a href="tel:{{ site.Params.phoneIntl }}">{{ site.Params.phone }}</a></p>
+            </div>
+            <div class="card">
+                <h3>Address</h3>
+                <p>{{ site.Params.address }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

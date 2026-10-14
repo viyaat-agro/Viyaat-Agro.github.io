@@ -1,40 +1,93 @@
-# Main Title
-main:
-  header:
-    title : "Viyaat Agro" 
-    description : ""
-    button:
-      text: "Learn More"
-      url: "https://www.linkedin.com/company/viyaat-consultancy/about/"
+# All page copy lives here. Edit text, rebuild with `hugo`, commit docs/.
 
+hero:
+  eyebrow: "Polyhouse floriculture · Horticulture · Farm consulting · Agri tourism"
+  title: "Cultivating hope. Feeding the world. Redefining agriculture."
+  lead: "Flowers and horticulture grown at scale, farm turnaround consulting, and agri tourism, all backed by our own capital and effort."
+  primary:
+    text: "Explore what we do"
+    url: "#verticals"
+  secondary:
+    text: "Get in touch"
+    url: "#contact"
+  stats:
+    - value: "4 yrs"
+      label: "of operation"
+    - value: "30+"
+      label: "acres of polyhouse floriculture"
+    - value: "140+"
+      label: "acres of horticulture"
+    - value: "3"
+      label: "verticals"
 
 about:
-  title: "About us"
-  desc: "Cultivating hope, Feeding the world, Redefining Agriculture."
+  eyebrow: "About Viyaat"
+  title: "Farms that run well, and make money."
+  text:
+    - "Viyaat is an agriculture company working across <strong>Production</strong>, <strong>Consulting</strong> and <strong>Agri Tourism</strong>."
+    - "For four years we have grown flowers in polyhouses and horticulture crops at scale. We combine technology-led farming with hands-on management, so farms run well and make money."
+  img: "assets/img/about-us.jpg"
+  alt: "Viyaat team discussing the field in an open farm among coconut palms"
 
-projects:
-  card1:
-    title: "Viyaat Agro"
-    text: "India's agricultural tapestry: diverse, vibrant, and resilient. Viyaat is a leading agriculture production company with a mission to redefine farming practices for a sustainable future. With technology and management team of dedicated experts, we specialize in the cultivation and processing of high-quality agricultural products."
-    img: "assets/img/back.jpeg"
-  card2:
+verticals:
+  eyebrow: "What we do"
+  title: "Three verticals. One principle: skin in the game."
+  items:
+    - id: production
+      number: "01"
+      name: "Production"
+      headline: "Polyhouse floriculture and horticulture at scale"
+      text: "We grow <strong>floriculture in 30+ acres of polyhouses</strong> and <strong>horticulture across 140+ acres</strong>. Protected cultivation gives us precise control over climate, water and inputs, which means consistent quality for our flowers. Our horticulture acreage gives us the scale for dependable supply."
+      lists:
+        - label: "What we grow"
+          items: ["Dutch roses", "Chrysanthemum", "Snapdragon", "Gypsophila", "Bell pepper"]
+        - label: "Who we supply"
+          items: ["Wholesalers", "Exporters", "Hospitality", "Events", "Retailers"]
+      img: "assets/img/flower-farm.jpg"
+      alt: "Rows of yellow chrysanthemum in bloom stretching across a Viyaat farm"
+    - id: consulting
+      number: "02"
+      name: "Consulting"
+      headline: "From underperforming farm to profitable farm"
+      text: "Many farms struggle with operations, not intent. We help farm owners operationalise their land through a <strong>plug-and-play model that covers everything</strong>, from setup to day-to-day running. We also turn underperforming farms around and take them to profitability."
+      extra: "We work in the structure that suits the farm: <strong>revenue share, equity or an operating partnership</strong>. We don't just advise. <strong>We have skin in the game</strong>, so our success is tied to yours."
+      lists:
+        - label: "How we work with you"
+          items: ["Revenue share", "Equity", "Operating partnership"]
+      img: "assets/img/tractor.jpg"
+      alt: "A Viyaat tractor preparing a field among palm trees"
+    - id: agritourism
+      number: "03"
+      name: "Agri Tourism"
+      headline: "Experience the farm"
+      text: "Agriculture is something people want to see for themselves. Our working farms are open to visitors, such as families, school groups, corporate teams and city dwellers. They can walk through polyhouses, see how flowers and produce are grown, take part in farm activities and connect with where food comes from."
+      lists:
+        - label: "Who visits"
+          items: ["Families", "School groups", "Corporate teams", "City dwellers"]
+      img: "assets/img/flower.jpg"
+      alt: "Close-up of white and yellow chrysanthemum flowers"
+
+principles:
+  approach:
     title: "Our Approach"
-    text: 
-      | 
-      <ul>
-      <li><b>Sustainability</b>: At Viyaat, sustainability is at the core of everything we do. We prioritize eco-friendly practices, water conservation, soil health, and biodiversity preservation to minimize our environmental footprint and promote long-term viability.</li>
-      <li><b>Innovation</b>: We embrace innovation and technology to optimize farming operations, enhance productivity, and improve crop resilience against climate change and other challenges.</li>
-      <li><b>Partnerships</b>: We believe in the power of collaboration. We work closely with researchers and industry partners to foster mutual growth, knowledge exchange, and community development. Together, we build a stronger, more resilient agricultural ecosystem.</li>
-      </ul>
-
-    img: "assets/img/flower.jpg"
-  card3:
+    items:
+      - name: "Sustainability"
+        text: "Sustainability is at the core of everything we do. We prioritize eco-friendly practices, water conservation, soil health, and biodiversity preservation to minimize our environmental footprint and promote long-term viability."
+      - name: "Innovation"
+        text: "We embrace innovation and technology to optimize farming operations, enhance productivity, and improve crop resilience against climate change and other challenges."
+      - name: "Partnerships"
+        text: "We believe in the power of collaboration. We work closely with researchers and industry partners to foster mutual growth, knowledge exchange, and community development. Together, we build a stronger, more resilient agricultural ecosystem."
+  commitment:
     title: "Our Commitment"
-    text: 
-      |
-      <ul>
-      <li><b>Quality Assurance</b>: Quality is our top priority. We adhere to stringent quality control measures at every stage of production, from seed selection to harvesting, processing, and packaging, ensuring that our products meet the highest standards of safety, purity, and freshness.</li>
-      <li><b>Customer Satisfaction</b>: We are committed to delivering exceptional value and service to our customers. Whether you are a wholesaler, retailer, or consumer, we strive to exceed your expectations with premium products, competitive prices, and reliable delivery.</li>
-      <li><b>Social Responsibility</b>: Beyond business, we are dedicated to making a positive impact on society. We support local communities, promote fair practices, and contribute to initiatives that enhance food security, education, and rural development.</li>
-      </ul>
-    img: "assets/img/flower-farm.jpg"
+    items:
+      - name: "Quality Assurance"
+        text: "Quality is our top priority. We adhere to stringent quality control measures at every stage of production, from seed selection to harvesting, processing, and packaging, ensuring that our products meet the highest standards of safety, purity, and freshness."
+      - name: "Customer Satisfaction"
+        text: "We are committed to delivering exceptional value and reliable service to our wholesale, export, hospitality, events and retail partners, with consistent quality and dependable supply."
+      - name: "Social Responsibility"
+        text: "Beyond business, we are dedicated to making a positive impact on society. We support local communities, promote fair practices, and contribute to initiatives that enhance food security, education, and rural development."
+
+contact:
+  eyebrow: "Contact"
+  title: "Let's talk farming."
+  text: "Whether you want to buy, partner, turn a farm around or visit, we'd like to hear from you."

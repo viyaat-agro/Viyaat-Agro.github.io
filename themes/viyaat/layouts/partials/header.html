@@ -1,0 +1,13 @@
+<header class="nav" id="nav">
+    <div class="wrap nav__inner">
+        <a class="nav__brand" href="#top" aria-label="Viyaat Agro, back to top"><img src="{{ site.Params.logoLight | relURL }}" alt="Viyaat Agro" width="160" height="50" /></a>
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Menu"><span></span><span></span></button>
+        <nav class="nav__menu" id="navMenu" aria-label="Main">
+            <ul>
+                {{ range site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</header>

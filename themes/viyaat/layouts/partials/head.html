@@ -1,0 +1,44 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Viyaat Agro | Polyhouse floriculture, horticulture, farm consulting &amp; agri tourism</title>
+    <meta name="description" content="{{ site.Params.description }}" />
+    <meta name="theme-color" content="#0d1f14" />
+    <link rel="canonical" href="{{ site.BaseURL }}" />
+    <link rel="icon" href="{{ site.Params.favicon | relURL }}" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Viyaat Agro" />
+    <meta property="og:title" content="Viyaat Agro | Cultivating hope. Feeding the world. Redefining agriculture." />
+    <meta property="og:description" content="{{ site.Params.description }}" />
+    <meta property="og:url" content="{{ site.BaseURL }}" />
+    <meta property="og:image" content="{{ site.Params.heroPoster | absURL }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="{{ site.Params.heroPoster | relURL }}" />
+    <link rel="stylesheet" href="{{ "css/site.css" | relURL }}" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Viyaat Agro",
+      "url": "{{ site.BaseURL }}",
+      "logo": "{{ site.Params.logo | absURL }}",
+      "email": "{{ site.Params.email }}",
+      "telephone": "{{ site.Params.phoneIntl }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No.93, 2nd Main, KSRTC Layout, Chikkalsandra, Uttarahalli Main Road, Subramanyapura",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "postalCode": "560061",
+        "addressCountry": "IN"
+      },
+      "sameAs": ["{{ site.Params.linkedin }}"]
+    }
+    </script>
+</head>

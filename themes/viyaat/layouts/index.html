@@ -126,10 +126,20 @@
             <p class="eyebrow eyebrow--dark">{{ .eyebrow }}</p>
             <h2>{{ .title }}</h2>
         </div>
-        <div class="gallery__grid">
-            {{ range .items }}
-            <figure><img src="{{ .img | relURL }}" alt="{{ .alt }}" width="{{ .w }}" height="{{ .h }}" loading="lazy" /></figure>
-            {{ end }}
+        <div class="slider" id="gallerySlider" role="region" aria-roledescription="carousel" aria-label="Photos from our farms">
+            <div class="slider__viewport" tabindex="0">
+                <div class="slider__track">
+                    {{ range .items }}
+                    <figure class="slide"><img src="{{ .img | relURL }}" alt="{{ .alt }}" loading="lazy" /></figure>
+                    {{ end }}
+                    {{ range first 3 .items }}
+                    <figure class="slide" data-clone aria-hidden="true"><img src="{{ .img | relURL }}" alt="" loading="lazy" /></figure>
+                    {{ end }}
+                </div>
+            </div>
+            <button class="slider__btn slider__btn--prev" type="button" aria-label="Previous photo" hidden><span aria-hidden="true">&#8249;</span></button>
+            <button class="slider__btn slider__btn--next" type="button" aria-label="Next photo" hidden><span aria-hidden="true">&#8250;</span></button>
+            <div class="slider__dots" hidden></div>
         </div>
     </div>
 </section>

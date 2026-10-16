@@ -168,7 +168,7 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--lime-bright);outlin
 .contact{background:var(--forest-2);color:#fff}
 .contact h2{color:#fff}
 .contact__lead{font-size:1.1rem;color:rgba(255,255,255,.8)}
-.contact__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.contact__grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-width:760px}
 .card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:var(--radius);padding:28px}
 .card h3{font-family:var(--sans);font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--lime-bright);margin-bottom:.8em}
 .card p{margin:0;font-size:1.05rem;word-break:break-word}

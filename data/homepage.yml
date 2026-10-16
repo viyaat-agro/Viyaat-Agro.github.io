@@ -104,7 +104,7 @@ why:
       open: "Staples and bulk crops: wheat, rice, pulses, oilseeds, cotton."
     - factor: "Economic output"
       polyhouse: "Net income ₹15–20 lakh/acre; B:C ratio up to 3.6."
-      open: "Net income typically ₹2–4 lakh/ha."
+      open: "Net income typically ₹2–4 lakh/acre."
     - factor: "Labour efficiency"
       polyhouse: "Automated fertigation and climate control cut manual labour by 7–18%."
       open: "Labour-intensive irrigation, weeding and pest control."

@@ -90,7 +90,7 @@ why:
   benefits:
     - { value: "8–10x", label: "Higher yield" }
     - { value: "60–70%", label: "Water saved" }
-    - { value: "₹15–20L", label: "Net income per hectare per year" }
+    - { value: "₹15–20L", label: "Net income per acre per year" }
     - { value: "35–50%", label: "Government subsidy" }
   rows:
     - factor: "Environmental friendliness"
@@ -103,7 +103,7 @@ why:
       polyhouse: "High-value: capsicum, tomato, cucumber, strawberry, cut flowers (rose, gerbera, orchid)."
       open: "Staples and bulk crops: wheat, rice, pulses, oilseeds, cotton."
     - factor: "Economic output"
-      polyhouse: "Net income ₹15–20 lakh/ha; B:C ratio up to 3.6."
+      polyhouse: "Net income ₹15–20 lakh/acre; B:C ratio up to 3.6."
       open: "Net income typically ₹2–4 lakh/ha."
     - factor: "Labour efficiency"
       polyhouse: "Automated fertigation and climate control cut manual labour by 7–18%."

@@ -39,16 +39,21 @@ linkedin = "https://www.linkedin.com/company/viyaat-consultancy/about/"
   weight = 2
 
   [[menu.main]]
-  name = "Gallery"
-  URL = "#gallery"
+  name = "Why polyhouse"
+  URL = "#why"
   weight = 3
 
   [[menu.main]]
-  name = "Approach"
-  URL = "#principles"
+  name = "Gallery"
+  URL = "#gallery"
   weight = 4
+
+  [[menu.main]]
+  name = "Founder"
+  URL = "#founder"
+  weight = 5
 
   [[menu.main]]
   name = "Contact"
   URL = "#contact"
-  weight = 5
+  weight = 6

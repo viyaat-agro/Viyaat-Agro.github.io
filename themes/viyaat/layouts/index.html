@@ -73,6 +73,51 @@
     </div>
 </section>
 
+<!-- Why protected cultivation -->
+{{ with $d.why }}
+<section class="section why" id="why">
+    <div class="wrap">
+        <div class="section__head">
+            <p class="eyebrow eyebrow--dark">{{ .eyebrow }}</p>
+            <h2>{{ .title }}</h2>
+        </div>
+        <div class="why__grid">
+            <div class="tech">
+                <h3 class="why__label">The technology</h3>
+                <ol>
+                    {{ range .technology }}
+                    <li><div><h4>{{ .name }}</h4><p>{{ .text }}</p></div></li>
+                    {{ end }}
+                </ol>
+                <h3 class="why__label">Key benefits</h3>
+                <div class="tiles">
+                    {{ range .benefits }}
+                    <div class="tile"><strong>{{ .value }}</strong><span>{{ .label }}</span></div>
+                    {{ end }}
+                </div>
+            </div>
+            <div>
+                <table class="compare">
+                    <thead>
+                        <tr><th scope="col"><span class="sr">Factor</span></th><th scope="col">Polyhouse</th><th scope="col">Open field</th></tr>
+                    </thead>
+                    <tbody>
+                        {{ range .rows }}
+                        <tr>
+                            <th scope="row">{{ .factor }}</th>
+                            <td data-label="Polyhouse">{{ .polyhouse }}</td>
+                            <td data-label="Open field">{{ .open }}</td>
+                        </tr>
+                        {{ end }}
+                    </tbody>
+                </table>
+                {{ with .note }}<p class="why__note">{{ . }}</p>{{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
 <!-- Gallery -->
 {{ with $d.gallery }}
 <section class="section gallery" id="gallery">
@@ -103,7 +148,22 @@
             <p class="eyebrow eyebrow--dark">{{ .eyebrow }}</p>
             <h2>{{ .name }}</h2>
             {{ with .role }}<p class="founder__role">{{ . }}</p>{{ end }}
+            {{ with .tagline }}<p class="founder__tagline">{{ . }}</p>{{ end }}
             {{ range .text }}<p>{{ . | safeHTML }}</p>{{ end }}
+            <div class="founder__facts">
+                {{ with .education }}
+                <div>
+                    <h3 class="why__label">Education</h3>
+                    <ul>{{ range . }}<li><strong>{{ .name }}</strong><span>{{ .detail }}{{ with .years }} <em>{{ . }}</em>{{ end }}</span></li>{{ end }}</ul>
+                </div>
+                {{ end }}
+                {{ with .experience }}
+                <div>
+                    <h3 class="why__label">Before Viyaat</h3>
+                    <ul>{{ range . }}<li><strong>{{ .name }}</strong><span>{{ .detail }}{{ with .years }} <em>{{ . }}</em>{{ end }}</span></li>{{ end }}</ul>
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 </section>

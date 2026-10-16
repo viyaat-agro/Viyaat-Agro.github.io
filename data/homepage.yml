@@ -75,6 +75,44 @@ verticals:
       alt: "Rows of capsicum trained on strings inside a Viyaat polyhouse"
       ratio: "wide"
 
+why:
+  eyebrow: "Why protected cultivation"
+  title: "Polyhouse farming: higher yields and climate resilience."
+  technology:
+    - name: "Structure & covering"
+      text: "UV poly film over a steel frame; sealed and controllable."
+    - name: "Climate control"
+      text: "Fan-pad or natural ventilation regulates temperature and humidity."
+    - name: "Drip irrigation + fertigation"
+      text: "Precise root-zone delivery of water and nutrients."
+    - name: "Round-the-year production"
+      text: "3–4 crop cycles annually vs 1–2 in the open."
+  benefits:
+    - { value: "8–10x", label: "Higher yield" }
+    - { value: "60–70%", label: "Water saved" }
+    - { value: "₹15–20L", label: "Net income per hectare per year" }
+    - { value: "35–50%", label: "Government subsidy" }
+  rows:
+    - factor: "Environmental friendliness"
+      polyhouse: "60–70% less water and 30–40% less fertilizer via drip fertigation; minimal runoff."
+      open: "Higher water and fertilizer use; greater runoff and chemical exposure."
+    - factor: "Climate resilience"
+      polyhouse: "Shielded from hail, excess rain and temperature swings; crop loss under 10%."
+      open: "Fully exposed to weather; losses often 25–35% of yield."
+    - factor: "Crops"
+      polyhouse: "High-value: capsicum, tomato, cucumber, strawberry, cut flowers (rose, gerbera, orchid)."
+      open: "Staples and bulk crops: wheat, rice, pulses, oilseeds, cotton."
+    - factor: "Economic output"
+      polyhouse: "Net income ₹15–20 lakh/ha; B:C ratio up to 3.6."
+      open: "Net income typically ₹2–4 lakh/ha."
+    - factor: "Labour efficiency"
+      polyhouse: "Automated fertigation and climate control cut manual labour by 7–18%."
+      open: "Labour-intensive irrigation, weeding and pest control."
+    - factor: "Premium products"
+      polyhouse: "Export-quality, off-season and festival-timed produce commands price premiums."
+      open: "Seasonal glut and inconsistent quality limit premium and export access."
+  note: "Indicative industry figures; actual results vary by crop, site and management."
+
 gallery:
   eyebrow: "From our farms"
   title: "Grown on our farms, packed for our customers."
@@ -90,15 +128,22 @@ gallery:
     - { img: "assets/img/pepper-yellow.jpg", alt: "Yellow capsicum growing on the plant", w: 960, h: 1280 }
     - { img: "assets/img/pepper-colours.jpg", alt: "Capsicum in red, orange and green on the plant", w: 960, h: 1280 }
 
-# Founder section: shown only when this block is present. Fill in and uncomment.
-# founder:
-#   eyebrow: "Our founder"
-#   name: ""
-#   role: ""
-#   img: "assets/img/founder.jpg"
-#   alt: ""
-#   text:
-#     - ""
+founder:
+  eyebrow: "Our founder"
+  name: "Yakshith Kiran"
+  role: "Founder & CEO"
+  tagline: "Strategy meets soil. An operator with skin in the game, building from the field up."
+  img: "assets/img/founder.jpg"
+  alt: "Yakshith Kiran driving a tractor between crop rows on a farm"
+  text:
+    - "Yakshith is the founder and CEO of Viyaat Agro. He combines a degree in agriculture with a management degree in food and agri business, and his earlier roles span equity research, agri and food consulting, and agricultural consulting with the Government of Karnataka."
+  education:
+    - { name: "IIM Ahmedabad", detail: "PGP, Food & Agri Business Management", years: "2021–23" }
+    - { name: "UAS Bangalore (GKVK)", detail: "B.Sc, Agriculture", years: "2016–20" }
+  experience:
+    - { name: "IIFL Group", detail: "Equity Research Analyst" }
+    - { name: "Innoterra", detail: "Agri and Food Consulting (summer intern)" }
+    - { name: "Government of Karnataka", detail: "Agri Consultant" }
 
 principles:
   approach:

@@ -1,9 +1,9 @@
 # All page copy lives here. Edit text, rebuild with `hugo`, commit docs/.
 
 hero:
-  eyebrow: "Polyhouse flowers & capsicum · Farm consulting · Agri tourism"
+  eyebrow: "Polyhouse horticulture · Farm consulting · Agri tourism"
   title: "Cultivating hope. Feeding the world. Redefining agriculture."
-  lead: "Flowers and capsicum grown in polyhouses, farm turnaround consulting, and agri tourism, all backed by our own capital and effort."
+  lead: "Horticulture grown in polyhouses, farm turnaround consulting, and agri tourism, all backed by proper capital planning and effort."
   primary:
     text: "Explore what we do"
     url: "#verticals"
@@ -20,10 +20,10 @@ hero:
 
 about:
   eyebrow: "About Viyaat"
-  title: "Farms that run well, and make money."
+  title: "Where good farming meets sound business."
   text:
     - "Viyaat is an agriculture company working across <strong>Production</strong>, <strong>Consulting</strong> and <strong>Agri Tourism</strong>."
-    - "We grow flowers and capsicum in polyhouses, combining technology-led farming with hands-on management, so farms run well and make money. Today our focus is protected cultivation, where climate, water and inputs are in our hands."
+    - "We grow flowers and capsicum in polyhouses, combining technology-led farming with hands-on management, so farms are run with discipline and perform consistently. Today our focus is protected cultivation, where climate, water and inputs are in our hands."
   milestones:
     - value: "4 yrs"
       label: "of hands-on farming"
@@ -45,7 +45,7 @@ verticals:
       text: "We grow <strong>flowers and capsicum across 30+ acres of polyhouses</strong>. Protected cultivation gives us precise control over climate, water and inputs, which means consistent quality and dependable supply, season after season."
       lists:
         - label: "What we grow"
-          items: ["Dutch roses", "Chrysanthemum", "Snapdragon", "Gypsophila", "Capsicum"]
+          items: ["Dutch roses", "Chrysanthemum", "Snapdragon", "Gypsophila", "Celosia", "Filler materials", "Capsicum"]
         - label: "Who we supply"
           items: ["Wholesalers", "Exporters", "Hospitality", "Events", "Retailers"]
       img: "assets/img/polyhouse-pepper.jpg"
@@ -67,10 +67,10 @@ verticals:
       number: "03"
       name: "Agri Tourism"
       headline: "Experience the farm"
-      text: "Agriculture is something people want to see for themselves. Our working farms are open to visitors, such as families, school groups, corporate teams and city dwellers. They can walk through polyhouses, see how flowers and produce are grown, take part in farm activities and connect with where food comes from."
+      text: "Agriculture is something people want to see for themselves. Our working farms are open to visitors, such as families, school groups and corporate teams. They can walk through polyhouses, see how flowers and produce are grown, take part in farm activities and connect with where food comes from."
       lists:
         - label: "Who visits"
-          items: ["Families", "School groups", "Corporate teams", "City dwellers"]
+          items: ["Families", "School groups", "Corporate teams"]
       img: "assets/img/polyhouse-rows.jpg"
       alt: "Rows of capsicum trained on strings inside a Viyaat polyhouse"
       ratio: "wide"
@@ -136,14 +136,10 @@ founder:
   img: "assets/img/founder.jpg"
   alt: "Yakshith Kiran driving a tractor between crop rows on a farm"
   text:
-    - "Yakshith is the founder and CEO of Viyaat Agro. He combines a degree in agriculture with a management degree in food and agri business, and his earlier roles span equity research, agri and food consulting, and agricultural consulting with the Government of Karnataka."
+    - "Yakshith is the founder and CEO of Viyaat Agro. He combines a degree in agriculture with a management degree in food and agri business."
   education:
     - { name: "IIM Ahmedabad", detail: "PGP, Food & Agri Business Management", years: "2021–23" }
     - { name: "UAS Bangalore (GKVK)", detail: "B.Sc, Agriculture", years: "2016–20" }
-  experience:
-    - { name: "IIFL Group", detail: "Equity Research Analyst" }
-    - { name: "Innoterra", detail: "Agri and Food Consulting (summer intern)" }
-    - { name: "Government of Karnataka", detail: "Agri Consultant" }
 
 principles:
   approach:

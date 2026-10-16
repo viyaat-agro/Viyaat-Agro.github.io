@@ -2,29 +2,29 @@ baseURL = 'https://viyaatagro.com/'
 languageCode = 'en-us'
 publishDir = 'docs'
 
-theme = 'graysx'
+theme = 'viyaat'
 title = 'Viyaat Agro'
+
+disableKinds = ['taxonomy', 'term', 'RSS']
 
 ## Site Settings
 [params]
 logo = "assets/img/logo.png"
+logoLight = "assets/img/logo-light.png"
 favicon = "assets/favicon.png"
+heroVideo = "assets/vid/tractor.mp4"
+heroPoster = "assets/img/hero-poster.jpg"
+ogImage = "assets/img/og-image.jpg"
+description = "Viyaat Agro runs 30+ acres of polyhouse horticulture, has consulted on 50+ acres of polyhouse farms with supply chains and profitability, and offers agri tourism."
 
 # Info
-address = "No.93, 2nd Main, KSRTC Layout, Chikkalsandra, Uttarahalli Main Road, Subramanyapura, Bangalore, South Bangalore, Karnataka 560061"
+address = "No.93, 2nd Main, KSRTC Layout, Chikkalsandra, Uttarahalli Main Road, Subramanyapura, Bangalore, Karnataka 560061"
 email = "contact@viyaat.com"
 phone = "7204062021"
+phoneIntl = "+917204062021"
 
 # Socials
-
-twitter = "#"
-facebook = "#"
-github = "https://github.com/Viyaat-Agro"
-
-# Other
-
-# Startbootstrap Contact Form Token https://startbootstrap.com/solution/contact-forms
-sbtoken = "TOKEN_HERE"
+linkedin = "https://www.linkedin.com/company/viyaat-consultancy/about/"
 
 ## Menu Items
 [menu]
@@ -34,11 +34,26 @@ sbtoken = "TOKEN_HERE"
   weight = 1
 
   [[menu.main]]
-  name = "Projects"
-  URL = "#projects"
+  name = "What we do"
+  URL = "#verticals"
   weight = 2
+
+  [[menu.main]]
+  name = "Why polyhouse"
+  URL = "#why"
+  weight = 3
+
+  [[menu.main]]
+  name = "Gallery"
+  URL = "#gallery"
+  weight = 4
+
+  [[menu.main]]
+  name = "Founder"
+  URL = "#founder"
+  weight = 5
 
   [[menu.main]]
   name = "Contact"
   URL = "#contact"
-  weight = 3
+  weight = 6

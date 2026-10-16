@@ -1,40 +1,167 @@
-# Main Title
-main:
-  header:
-    title : "Viyaat Agro" 
-    description : ""
-    button:
-      text: "Learn More"
-      url: "https://www.linkedin.com/company/viyaat-consultancy/about/"
+# All page copy lives here. Edit text, rebuild with `hugo`, commit docs/.
 
+hero:
+  eyebrow: "Polyhouse horticulture · Farm consulting · Agri tourism"
+  title: "Cultivating hope. Feeding the world. Redefining agriculture."
+  lead: "Horticulture grown in polyhouses, farm turnaround consulting, and agri tourism, all backed by proper capital planning and effort."
+  primary:
+    text: "Explore what we do"
+    url: "#verticals"
+  secondary:
+    text: "Get in touch"
+    url: "#contact"
+  stats:
+    - value: "30+"
+      label: "acres of polyhouse cultivation"
+    - value: "50+"
+      label: "acres of polyhouse farms consulted"
+    - value: "3"
+      label: "verticals"
 
 about:
-  title: "About us"
-  desc: "Cultivating hope, Feeding the world, Redefining Agriculture."
+  eyebrow: "About Viyaat"
+  title: "Where good farming meets sound business."
+  text:
+    - "Viyaat is an agriculture company working across <strong>Production</strong>, <strong>Consulting</strong> and <strong>Agri Tourism</strong>."
+    - "We grow flowers and capsicum in polyhouses, combining technology-led farming with hands-on management, so farms are run with discipline and perform consistently. Today our focus is protected cultivation, where climate, water and inputs are in our hands."
+  milestones:
+    - value: "4 yrs"
+      label: "of hands-on farming"
+    - value: "140+"
+      label: "acres of open-field farming in our earlier years"
+    - value: "30+"
+      label: "acres of polyhouse cultivation today"
+  img: "assets/img/yellow-chrysanthemum.jpg"
+  alt: "Freshly cut yellow chrysanthemum bouquet from a Viyaat farm"
 
-projects:
-  card1:
-    title: "Viyaat Agro"
-    text: "India's agricultural tapestry: diverse, vibrant, and resilient. Viyaat is a leading agriculture production company with a mission to redefine farming practices for a sustainable future. With technology and management team of dedicated experts, we specialize in the cultivation and processing of high-quality agricultural products."
-    img: "assets/img/back.jpeg"
-  card2:
+verticals:
+  eyebrow: "What we do"
+  title: "Three verticals. One principle: skin in the game."
+  items:
+    - id: production
+      number: "01"
+      name: "Production"
+      headline: "Polyhouse cultivation of flowers and capsicum"
+      text: "We grow <strong>flowers and capsicum across 30+ acres of polyhouses</strong>. Protected cultivation gives us precise control over climate, water and inputs, which means consistent quality and dependable supply, season after season."
+      lists:
+        - label: "What we grow"
+          items: ["Dutch roses", "Chrysanthemum", "Snapdragon", "Gypsophila", "Celosia", "Filler materials", "Capsicum"]
+        - label: "Who we supply"
+          items: ["Wholesalers", "Exporters", "Hospitality", "Events", "Retailers"]
+      img: "assets/img/polyhouse-pepper.jpg"
+      alt: "Capsicum plant on drip irrigation inside a Viyaat polyhouse, with chrysanthemum seedlings behind"
+    - id: consulting
+      number: "02"
+      name: "Consulting"
+      headline: "From underperforming farm to profitable farm"
+      text: "We have consulted on <strong>50+ acres of polyhouse farms</strong>. For each farmer we set up a sound package of practices, built the supply chain to take their produce to market, and kept the focus on profitability."
+      extra: "Our plug-and-play model covers everything, from setup to day-to-day running, and we also turn underperforming farms around. We work in the structure that suits the farm: <strong>revenue share, equity or an operating partnership</strong>. We don't just advise. <strong>We have skin in the game</strong>, so our success is tied to yours."
+      lists:
+        - label: "What farmers get"
+          items: ["Package of practices", "Supply chains", "Profitability"]
+        - label: "How we work with you"
+          items: ["Revenue share", "Equity", "Operating partnership"]
+      img: "assets/img/rose-harvest-baskets.jpg"
+      alt: "Freshly harvested rose buds in protective sleeves, collected in baskets on a Viyaat farm"
+    - id: agritourism
+      number: "03"
+      name: "Agri Tourism"
+      headline: "Experience the farm"
+      text: "Agriculture is something people want to see for themselves. Our working farms are open to visitors, such as families, school groups and corporate teams. They can walk through polyhouses, see how flowers and produce are grown, take part in farm activities and connect with where food comes from."
+      lists:
+        - label: "Who visits"
+          items: ["Families", "School groups", "Corporate teams"]
+      img: "assets/img/polyhouse-rows.jpg"
+      alt: "Rows of capsicum trained on strings inside a Viyaat polyhouse"
+      ratio: "wide"
+
+why:
+  eyebrow: "Why protected cultivation"
+  title: "Polyhouse farming: higher yields and climate resilience."
+  technology:
+    - name: "Structure & covering"
+      text: "UV poly film over a steel frame; sealed and controllable."
+    - name: "Climate control"
+      text: "Fan-pad or natural ventilation regulates temperature and humidity."
+    - name: "Drip irrigation + fertigation"
+      text: "Precise root-zone delivery of water and nutrients."
+    - name: "Round-the-year production"
+      text: "3–4 crop cycles annually vs 1–2 in the open."
+  benefits:
+    - { value: "8–10x", label: "Higher yield" }
+    - { value: "60–70%", label: "Water saved" }
+    - { value: "₹15–20L", label: "Net income per hectare per year" }
+    - { value: "35–50%", label: "Government subsidy" }
+  rows:
+    - factor: "Environmental friendliness"
+      polyhouse: "60–70% less water and 30–40% less fertilizer via drip fertigation; minimal runoff."
+      open: "Higher water and fertilizer use; greater runoff and chemical exposure."
+    - factor: "Climate resilience"
+      polyhouse: "Shielded from hail, excess rain and temperature swings; crop loss under 10%."
+      open: "Fully exposed to weather; losses often 25–35% of yield."
+    - factor: "Crops"
+      polyhouse: "High-value: capsicum, tomato, cucumber, strawberry, cut flowers (rose, gerbera, orchid)."
+      open: "Staples and bulk crops: wheat, rice, pulses, oilseeds, cotton."
+    - factor: "Economic output"
+      polyhouse: "Net income ₹15–20 lakh/ha; B:C ratio up to 3.6."
+      open: "Net income typically ₹2–4 lakh/ha."
+    - factor: "Labour efficiency"
+      polyhouse: "Automated fertigation and climate control cut manual labour by 7–18%."
+      open: "Labour-intensive irrigation, weeding and pest control."
+    - factor: "Premium products"
+      polyhouse: "Export-quality, off-season and festival-timed produce commands price premiums."
+      open: "Seasonal glut and inconsistent quality limit premium and export access."
+  note: "Indicative industry figures; actual results vary by crop, site and management."
+
+gallery:
+  eyebrow: "From our farms"
+  title: "Grown on our farms, packed for our customers."
+  items:
+    - { img: "assets/img/red-roses-box.jpg", alt: "Red roses packed in a carton", w: 960, h: 1280 }
+    - { img: "assets/img/white-chrysanthemum.jpg", alt: "Bunches of white chrysanthemum wrapped for dispatch", w: 1280, h: 1280 }
+    - { img: "assets/img/pink-roses-boxes.jpg", alt: "Cartons of pink roses ready for dispatch", w: 1280, h: 960 }
+    - { img: "assets/img/pink-chrysanthemum-bunch.jpg", alt: "Wrapped bunch of pink and white chrysanthemum", w: 960, h: 1280 }
+    - { img: "assets/img/rose-buds-basket.jpg", alt: "Rose buds in protective sleeves in a green harvest basket", w: 960, h: 1280 }
+    - { img: "assets/img/gypsophila.jpg", alt: "Fresh gypsophila", w: 960, h: 1280 }
+    - { img: "assets/img/pink-chrysanthemum-heap.jpg", alt: "Freshly cut pink chrysanthemum stems", w: 1280, h: 960 }
+    - { img: "assets/img/pepper-green.jpg", alt: "Green capsicum close up", w: 960, h: 640 }
+    - { img: "assets/img/pepper-yellow.jpg", alt: "Yellow capsicum growing on the plant", w: 960, h: 1280 }
+    - { img: "assets/img/pepper-colours.jpg", alt: "Capsicum in red, orange and green on the plant", w: 960, h: 1280 }
+
+founder:
+  eyebrow: "Our founder"
+  name: "Yakshith Kiran"
+  role: "Founder & CEO"
+  tagline: "Strategy meets soil. An operator with skin in the game, building from the field up."
+  img: "assets/img/founder.jpg"
+  alt: "Yakshith Kiran driving a tractor between crop rows on a farm"
+  text:
+    - "Yakshith is the founder and CEO of Viyaat Agro. He combines a degree in agriculture with a management degree in food and agri business."
+  education:
+    - { name: "IIM Ahmedabad", detail: "PGP, Food & Agri Business Management", years: "2021–23" }
+    - { name: "UAS Bangalore (GKVK)", detail: "B.Sc, Agriculture", years: "2016–20" }
+
+principles:
+  approach:
     title: "Our Approach"
-    text: 
-      | 
-      <ul>
-      <li><b>Sustainability</b>: At Viyaat, sustainability is at the core of everything we do. We prioritize eco-friendly practices, water conservation, soil health, and biodiversity preservation to minimize our environmental footprint and promote long-term viability.</li>
-      <li><b>Innovation</b>: We embrace innovation and technology to optimize farming operations, enhance productivity, and improve crop resilience against climate change and other challenges.</li>
-      <li><b>Partnerships</b>: We believe in the power of collaboration. We work closely with researchers and industry partners to foster mutual growth, knowledge exchange, and community development. Together, we build a stronger, more resilient agricultural ecosystem.</li>
-      </ul>
-
-    img: "assets/img/flower.jpg"
-  card3:
+    items:
+      - name: "Sustainability"
+        text: "Sustainability is at the core of everything we do. We prioritize eco-friendly practices, water conservation, soil health, and biodiversity preservation to minimize our environmental footprint and promote long-term viability."
+      - name: "Innovation"
+        text: "We embrace innovation and technology to optimize farming operations, enhance productivity, and improve crop resilience against climate change and other challenges."
+      - name: "Partnerships"
+        text: "We believe in the power of collaboration. We work closely with researchers and industry partners to foster mutual growth, knowledge exchange, and community development. Together, we build a stronger, more resilient agricultural ecosystem."
+  commitment:
     title: "Our Commitment"
-    text: 
-      |
-      <ul>
-      <li><b>Quality Assurance</b>: Quality is our top priority. We adhere to stringent quality control measures at every stage of production, from seed selection to harvesting, processing, and packaging, ensuring that our products meet the highest standards of safety, purity, and freshness.</li>
-      <li><b>Customer Satisfaction</b>: We are committed to delivering exceptional value and service to our customers. Whether you are a wholesaler, retailer, or consumer, we strive to exceed your expectations with premium products, competitive prices, and reliable delivery.</li>
-      <li><b>Social Responsibility</b>: Beyond business, we are dedicated to making a positive impact on society. We support local communities, promote fair practices, and contribute to initiatives that enhance food security, education, and rural development.</li>
-      </ul>
-    img: "assets/img/flower-farm.jpg"
+    items:
+      - name: "Quality Assurance"
+        text: "Quality is our top priority. We adhere to stringent quality control measures at every stage of production, from seed selection to harvesting, processing, and packaging, ensuring that our products meet the highest standards of safety, purity, and freshness."
+      - name: "Customer Satisfaction"
+        text: "We are committed to delivering exceptional value and reliable service to our wholesale, export, hospitality, events and retail partners, with consistent quality and dependable supply."
+      - name: "Social Responsibility"
+        text: "Beyond business, we are dedicated to making a positive impact on society. We support local communities, promote fair practices, and contribute to initiatives that enhance food security, education, and rural development."
+
+contact:
+  eyebrow: "Contact"
+  title: "Let's talk farming."
+  text: "Whether you want to buy, partner, turn a farm around or visit, we'd like to hear from you."

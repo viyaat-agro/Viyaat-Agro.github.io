@@ -14,6 +14,7 @@ logoLight = "assets/img/logo-light.png"
 favicon = "assets/favicon.png"
 heroVideo = "assets/vid/tractor.mp4"
 heroPoster = "assets/img/hero-poster.jpg"
+ogImage = "assets/img/og-image.jpg"
 description = "Viyaat Agro grows flowers on 30+ acres of polyhouse and horticulture crops on 140+ acres, turns farms around to profitability with skin in the game, and offers agri tourism."
 
 # Info
@@ -38,11 +39,16 @@ linkedin = "https://www.linkedin.com/company/viyaat-consultancy/about/"
   weight = 2
 
   [[menu.main]]
+  name = "Gallery"
+  URL = "#gallery"
+  weight = 3
+
+  [[menu.main]]
   name = "Approach"
   URL = "#principles"
-  weight = 3
+  weight = 4
 
   [[menu.main]]
   name = "Contact"
   URL = "#contact"
-  weight = 4
+  weight = 5

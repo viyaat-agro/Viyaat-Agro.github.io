@@ -34,7 +34,7 @@
             {{ range $d.about.text }}<p>{{ . | safeHTML }}</p>{{ end }}
         </div>
         <figure class="split__media">
-            <img src="{{ $d.about.img | relURL }}" alt="{{ $d.about.alt }}" width="1800" height="1200" loading="lazy" />
+            <img src="{{ $d.about.img | relURL }}" alt="{{ $d.about.alt }}" loading="lazy" />
         </figure>
     </div>
 </section>
@@ -49,7 +49,7 @@
         {{ range $d.verticals.items }}
         <article class="vertical" id="{{ .id }}">
             <figure class="vertical__media">
-                <img src="{{ .img | relURL }}" alt="{{ .alt }}" loading="lazy" />
+                <img src="{{ .img | relURL }}" alt="{{ .alt }}"{{ with .ratio }} class="ratio-{{ . }}"{{ end }} loading="lazy" />
             </figure>
             <div class="vertical__body">
                 <p class="vertical__num">{{ .number }} · {{ .name }}</p>
@@ -67,6 +67,23 @@
         {{ end }}
     </div>
 </section>
+
+<!-- Gallery -->
+{{ with $d.gallery }}
+<section class="section gallery" id="gallery">
+    <div class="wrap">
+        <div class="section__head">
+            <p class="eyebrow eyebrow--dark">{{ .eyebrow }}</p>
+            <h2>{{ .title }}</h2>
+        </div>
+        <div class="gallery__grid">
+            {{ range .items }}
+            <figure><img src="{{ .img | relURL }}" alt="{{ .alt }}" width="{{ .w }}" height="{{ .h }}" loading="lazy" /></figure>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
 
 <!-- Approach and commitment -->
 <section class="section principles" id="principles">

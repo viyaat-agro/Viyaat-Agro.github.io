@@ -26,8 +26,8 @@ about:
   text:
     - "Viyaat is an agriculture company working across <strong>Production</strong>, <strong>Consulting</strong> and <strong>Agri Tourism</strong>."
     - "For four years we have grown flowers in polyhouses and horticulture crops at scale. We combine technology-led farming with hands-on management, so farms run well and make money."
-  img: "assets/img/about-us.jpg"
-  alt: "Viyaat team discussing the field in an open farm among coconut palms"
+  img: "assets/img/harvest-team.jpg"
+  alt: "Viyaat farm team harvesting pink chrysanthemum in the field"
 
 verticals:
   eyebrow: "What we do"
@@ -43,8 +43,8 @@ verticals:
           items: ["Dutch roses", "Chrysanthemum", "Snapdragon", "Gypsophila", "Bell pepper"]
         - label: "Who we supply"
           items: ["Wholesalers", "Exporters", "Hospitality", "Events", "Retailers"]
-      img: "assets/img/flower-farm.jpg"
-      alt: "Rows of yellow chrysanthemum in bloom stretching across a Viyaat farm"
+      img: "assets/img/polyhouse-pepper.jpg"
+      alt: "Bell pepper plant on drip irrigation inside a Viyaat polyhouse"
     - id: consulting
       number: "02"
       name: "Consulting"
@@ -54,8 +54,8 @@ verticals:
       lists:
         - label: "How we work with you"
           items: ["Revenue share", "Equity", "Operating partnership"]
-      img: "assets/img/tractor.jpg"
-      alt: "A Viyaat tractor preparing a field among palm trees"
+      img: "assets/img/rose-harvest-baskets.jpg"
+      alt: "Freshly harvested rose buds in protective sleeves, collected in baskets on a Viyaat farm"
     - id: agritourism
       number: "03"
       name: "Agri Tourism"
@@ -64,8 +64,25 @@ verticals:
       lists:
         - label: "Who visits"
           items: ["Families", "School groups", "Corporate teams", "City dwellers"]
-      img: "assets/img/flower.jpg"
-      alt: "Close-up of white and yellow chrysanthemum flowers"
+      img: "assets/img/polyhouse-rows.jpg"
+      alt: "Rows of crops trained on strings inside a Viyaat polyhouse"
+      ratio: "wide"
+
+gallery:
+  eyebrow: "From our farms"
+  title: "Grown on our farms, packed for our customers."
+  items:
+    - { img: "assets/img/red-roses-box.jpg", alt: "Red roses packed in a carton", w: 960, h: 1280 }
+    - { img: "assets/img/white-chrysanthemum.jpg", alt: "Bunches of white chrysanthemum wrapped for dispatch", w: 1280, h: 1280 }
+    - { img: "assets/img/pink-roses-boxes.jpg", alt: "Cartons of pink roses ready for dispatch", w: 1280, h: 960 }
+    - { img: "assets/img/pink-chrysanthemum-bunch.jpg", alt: "Wrapped bunch of pink and white chrysanthemum", w: 960, h: 1280 }
+    - { img: "assets/img/rose-buds-basket.jpg", alt: "Rose buds in protective sleeves in a green harvest basket", w: 960, h: 1280 }
+    - { img: "assets/img/pink-chrysanthemum-heap.jpg", alt: "Freshly cut pink chrysanthemum stems", w: 1280, h: 960 }
+    - { img: "assets/img/gypsophila.jpg", alt: "Fresh gypsophila", w: 960, h: 1280 }
+    - { img: "assets/img/yellow-chrysanthemum.jpg", alt: "Bouquet of yellow chrysanthemum", w: 960, h: 1280 }
+    - { img: "assets/img/pepper-green.jpg", alt: "Green bell peppers close up", w: 960, h: 640 }
+    - { img: "assets/img/pepper-yellow.jpg", alt: "Yellow bell peppers growing on the plant", w: 960, h: 1280 }
+    - { img: "assets/img/pepper-colours.jpg", alt: "Bell peppers in red, orange and green on the plant", w: 960, h: 1280 }
 
 principles:
   approach:

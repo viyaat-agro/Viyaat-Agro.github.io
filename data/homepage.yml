@@ -1,9 +1,9 @@
 # All page copy lives here. Edit text, rebuild with `hugo`, commit docs/.
 
 hero:
-  eyebrow: "Polyhouse floriculture · Horticulture · Farm consulting · Agri tourism"
+  eyebrow: "Polyhouse flowers & capsicum · Farm consulting · Agri tourism"
   title: "Cultivating hope. Feeding the world. Redefining agriculture."
-  lead: "Flowers and horticulture grown at scale, farm turnaround consulting, and agri tourism, all backed by our own capital and effort."
+  lead: "Flowers and capsicum grown in polyhouses, farm turnaround consulting, and agri tourism, all backed by our own capital and effort."
   primary:
     text: "Explore what we do"
     url: "#verticals"
@@ -11,12 +11,10 @@ hero:
     text: "Get in touch"
     url: "#contact"
   stats:
-    - value: "4 yrs"
-      label: "of operation"
     - value: "30+"
-      label: "acres of polyhouse floriculture"
-    - value: "140+"
-      label: "acres of horticulture"
+      label: "acres of polyhouse cultivation"
+    - value: "50+"
+      label: "acres of polyhouse farms consulted"
     - value: "3"
       label: "verticals"
 
@@ -25,9 +23,16 @@ about:
   title: "Farms that run well, and make money."
   text:
     - "Viyaat is an agriculture company working across <strong>Production</strong>, <strong>Consulting</strong> and <strong>Agri Tourism</strong>."
-    - "For four years we have grown flowers in polyhouses and horticulture crops at scale. We combine technology-led farming with hands-on management, so farms run well and make money."
-  img: "assets/img/harvest-team.jpg"
-  alt: "Viyaat farm team harvesting pink chrysanthemum in the field"
+    - "We grow flowers and capsicum in polyhouses, combining technology-led farming with hands-on management, so farms run well and make money. Today our focus is protected cultivation, where climate, water and inputs are in our hands."
+  milestones:
+    - value: "4 yrs"
+      label: "of hands-on farming"
+    - value: "140+"
+      label: "acres of open-field farming in our earlier years"
+    - value: "30+"
+      label: "acres of polyhouse cultivation today"
+  img: "assets/img/yellow-chrysanthemum.jpg"
+  alt: "Freshly cut yellow chrysanthemum bouquet from a Viyaat farm"
 
 verticals:
   eyebrow: "What we do"
@@ -36,22 +41,24 @@ verticals:
     - id: production
       number: "01"
       name: "Production"
-      headline: "Polyhouse floriculture and horticulture at scale"
-      text: "We grow <strong>floriculture in 30+ acres of polyhouses</strong> and <strong>horticulture across 140+ acres</strong>. Protected cultivation gives us precise control over climate, water and inputs, which means consistent quality for our flowers. Our horticulture acreage gives us the scale for dependable supply."
+      headline: "Polyhouse cultivation of flowers and capsicum"
+      text: "We grow <strong>flowers and capsicum across 30+ acres of polyhouses</strong>. Protected cultivation gives us precise control over climate, water and inputs, which means consistent quality and dependable supply, season after season."
       lists:
         - label: "What we grow"
-          items: ["Dutch roses", "Chrysanthemum", "Snapdragon", "Gypsophila", "Bell pepper"]
+          items: ["Dutch roses", "Chrysanthemum", "Snapdragon", "Gypsophila", "Capsicum"]
         - label: "Who we supply"
           items: ["Wholesalers", "Exporters", "Hospitality", "Events", "Retailers"]
       img: "assets/img/polyhouse-pepper.jpg"
-      alt: "Bell pepper plant on drip irrigation inside a Viyaat polyhouse"
+      alt: "Capsicum plant on drip irrigation inside a Viyaat polyhouse, with chrysanthemum seedlings behind"
     - id: consulting
       number: "02"
       name: "Consulting"
       headline: "From underperforming farm to profitable farm"
-      text: "Many farms struggle with operations, not intent. We help farm owners operationalise their land through a <strong>plug-and-play model that covers everything</strong>, from setup to day-to-day running. We also turn underperforming farms around and take them to profitability."
-      extra: "We work in the structure that suits the farm: <strong>revenue share, equity or an operating partnership</strong>. We don't just advise. <strong>We have skin in the game</strong>, so our success is tied to yours."
+      text: "We have consulted on <strong>50+ acres of polyhouse farms</strong>. For each farmer we set up a sound package of practices, built the supply chain to take their produce to market, and kept the focus on profitability."
+      extra: "Our plug-and-play model covers everything, from setup to day-to-day running, and we also turn underperforming farms around. We work in the structure that suits the farm: <strong>revenue share, equity or an operating partnership</strong>. We don't just advise. <strong>We have skin in the game</strong>, so our success is tied to yours."
       lists:
+        - label: "What farmers get"
+          items: ["Package of practices", "Supply chains", "Profitability"]
         - label: "How we work with you"
           items: ["Revenue share", "Equity", "Operating partnership"]
       img: "assets/img/rose-harvest-baskets.jpg"
@@ -65,7 +72,7 @@ verticals:
         - label: "Who visits"
           items: ["Families", "School groups", "Corporate teams", "City dwellers"]
       img: "assets/img/polyhouse-rows.jpg"
-      alt: "Rows of crops trained on strings inside a Viyaat polyhouse"
+      alt: "Rows of capsicum trained on strings inside a Viyaat polyhouse"
       ratio: "wide"
 
 gallery:
@@ -77,12 +84,21 @@ gallery:
     - { img: "assets/img/pink-roses-boxes.jpg", alt: "Cartons of pink roses ready for dispatch", w: 1280, h: 960 }
     - { img: "assets/img/pink-chrysanthemum-bunch.jpg", alt: "Wrapped bunch of pink and white chrysanthemum", w: 960, h: 1280 }
     - { img: "assets/img/rose-buds-basket.jpg", alt: "Rose buds in protective sleeves in a green harvest basket", w: 960, h: 1280 }
-    - { img: "assets/img/pink-chrysanthemum-heap.jpg", alt: "Freshly cut pink chrysanthemum stems", w: 1280, h: 960 }
     - { img: "assets/img/gypsophila.jpg", alt: "Fresh gypsophila", w: 960, h: 1280 }
-    - { img: "assets/img/yellow-chrysanthemum.jpg", alt: "Bouquet of yellow chrysanthemum", w: 960, h: 1280 }
-    - { img: "assets/img/pepper-green.jpg", alt: "Green bell peppers close up", w: 960, h: 640 }
-    - { img: "assets/img/pepper-yellow.jpg", alt: "Yellow bell peppers growing on the plant", w: 960, h: 1280 }
-    - { img: "assets/img/pepper-colours.jpg", alt: "Bell peppers in red, orange and green on the plant", w: 960, h: 1280 }
+    - { img: "assets/img/pink-chrysanthemum-heap.jpg", alt: "Freshly cut pink chrysanthemum stems", w: 1280, h: 960 }
+    - { img: "assets/img/pepper-green.jpg", alt: "Green capsicum close up", w: 960, h: 640 }
+    - { img: "assets/img/pepper-yellow.jpg", alt: "Yellow capsicum growing on the plant", w: 960, h: 1280 }
+    - { img: "assets/img/pepper-colours.jpg", alt: "Capsicum in red, orange and green on the plant", w: 960, h: 1280 }
+
+# Founder section: shown only when this block is present. Fill in and uncomment.
+# founder:
+#   eyebrow: "Our founder"
+#   name: ""
+#   role: ""
+#   img: "assets/img/founder.jpg"
+#   alt: ""
+#   text:
+#     - ""
 
 principles:
   approach:

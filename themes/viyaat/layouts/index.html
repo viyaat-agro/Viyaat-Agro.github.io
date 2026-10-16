@@ -32,6 +32,11 @@
             <p class="eyebrow eyebrow--dark">{{ $d.about.eyebrow }}</p>
             <h2>{{ $d.about.title }}</h2>
             {{ range $d.about.text }}<p>{{ . | safeHTML }}</p>{{ end }}
+            {{ with $d.about.milestones }}
+            <dl class="milestones">
+                {{ range . }}<div><dt>{{ .value }}</dt><dd>{{ .label }}</dd></div>{{ end }}
+            </dl>
+            {{ end }}
         </div>
         <figure class="split__media">
             <img src="{{ $d.about.img | relURL }}" alt="{{ $d.about.alt }}" loading="lazy" />
@@ -80,6 +85,25 @@
             {{ range .items }}
             <figure><img src="{{ .img | relURL }}" alt="{{ .alt }}" width="{{ .w }}" height="{{ .h }}" loading="lazy" /></figure>
             {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<!-- Founder (optional) -->
+{{ with $d.founder }}
+<section class="section founder" id="founder">
+    <div class="wrap split split--founder">
+        {{ if .img }}
+        <figure class="split__media">
+            <img src="{{ .img | relURL }}" alt="{{ .alt }}" loading="lazy" />
+        </figure>
+        {{ end }}
+        <div class="split__text">
+            <p class="eyebrow eyebrow--dark">{{ .eyebrow }}</p>
+            <h2>{{ .name }}</h2>
+            {{ with .role }}<p class="founder__role">{{ . }}</p>{{ end }}
+            {{ range .text }}<p>{{ . | safeHTML }}</p>{{ end }}
         </div>
     </div>
 </section>
